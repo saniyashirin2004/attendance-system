@@ -17,3 +17,9 @@ A PHP-based attendance management system
 -Editor: Visual Studio Code (VS Code)
 -Version Control: Git, GitHub
 
+## ⚠️ DATABASE CONFIGURATION:
+This project uses a MySQL database. For security, the original db.php file (with actual credentials) has been removed from the repository.
+Instead, a *sample file* is provided: db_sample.php.
+
+### To run the project:
+1. *Copy* the sample file and rename it to db.php
