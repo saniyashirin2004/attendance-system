@@ -1,25 +1,90 @@
-# attendance-system
-A PHP-based attendance management system
+#  Student Attendance Management System
 
-*PROJECT OBJECTIVES*
--To develop a simple and effective Attendance Management System using PHP and MySQL.
--To provide an easy-to-use interface for registering students and tracking daily attendance.
--To eliminate manual attendance recording and reduce human errors.
--To allow viewing and managing attendance records based on date or student.
+A web-based Attendance Management System developed using PHP and MySQL to simplify student attendance tracking and record management. The system provides an easy-to-use interface for maintaining attendance records efficiently and accurately.
 
-*TOOLS AND TECHNOLOGIES USED*
--Frontend: HTML, CSS.
--Backend: PHP
--Database: MySQL
--Server: XAMPP
--Database Tool: phpMyAdmin
--Browser: Chrome / Firefox
--Editor: Visual Studio Code (VS Code)
--Version Control: Git, GitHub
+##  Features
 
-## ⚠️ DATABASE CONFIGURATION:
-This project uses a MySQL database. For security, the original db.php file (with actual credentials) has been removed from the repository.
-Instead, a *sample file* is provided: db_sample.php.
+- Student Registration
+- Attendance Management
+- View Attendance Records
+- Search Student Attendance
+- Date-wise Attendance Tracking
+- User-Friendly Interface
 
-### To run the project:
-1. *Copy* the sample file and rename it to db.php
+##  Technologies Used
+
+- HTML
+- CSS
+- PHP
+- MySQL
+- XAMPP
+- phpMyAdmin
+- Git & GitHub
+
+##  Objectives
+
+- Automate attendance recording.
+- Reduce manual errors.
+- Improve attendance management efficiency.
+- Maintain organized student records.
+- Provide quick access to attendance data.
+
+##  Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/attendance-system.git
+   ```
+2. Move the project folder to:
+   ```bash
+   xampp/htdocs/
+   ```
+3. Start Apache and MySQL using XAMPP.
+4. Create a MySQL database using phpMyAdmin.
+5. Import the database SQL file.
+6. Copy `db_sample.php` and rename it to `db.php`.
+7. Update the database credentials in `db.php`.
+8. Open your browser and run:
+   ```bash
+   http://localhost/attendance-system
+   ```
+
+##  Database Configuration
+
+For security reasons, actual database credentials are not included in this repository.
+Use the provided sample file:
+
+```bash
+db_sample.php
+```
+
+Rename it to:
+
+```bash
+db.php
+```
+and configure your database connection details.
+
+##  Project Structure
+
+```bash
+attendance-system/
+│
+├── css/
+├── images/
+├── db_sample.php
+├── index.php
+├── register.php
+├── attendance.php
+└── README.md
+```
+
+##  Author
+
+**Saniya Shirin**
+
+Final Year Computer Science Engineering Student
+
+## 📄 License
+
+This project is intended for educational and learning purposes.
